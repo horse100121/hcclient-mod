@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "hcclient",
+  "version": "${version}",
+  "name": "HC Client",
+  "description": "Lightweight HC client: HUD with FPS/CPS/coords/ping/totems/armor/potions, keystrokes, animated hotbar, fullbright, settings menu.",
+  "authors": ["HC"],
+  "license": "MIT",
+  "icon": "assets/hcclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.hc.client.HCClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
